@@ -36,6 +36,20 @@
 
 ## Testes & Deploy
 - [x] Escrever testes unitários com Vitest
-- [ ] Criar checkpoint final
+- [x] Criar checkpoint final
 - [ ] Configurar deploy no Render.com
 - [ ] Configurar CI/CD com GitHub Actions
+
+## Integração com API Real IPTV Perfeito
+- [ ] Criar serviço para conectar com API do IPTV Perfeito
+- [ ] Extrair todas as categorias de canais
+- [ ] Extrair todos os canais com IDs
+- [ ] Extrair todas as categorias de filmes
+- [ ] Extrair todos os filmes com metadados
+- [ ] Extrair todas as categorias de séries
+- [ ] Extrair todas as séries com episódios
+- [ ] Armazenar dados no PostgreSQL
+- [ ] Gerar URLs de streaming com credenciais ocultas no backend
+- [ ] Testar integração completa
+- [ ] Fazer commit no GitHub
+- [ ] Deploy no Render.com
