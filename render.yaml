@@ -3,7 +3,7 @@ services:
     name: sucesso
     env: node
     plan: free
-    buildCommand: npm run build
+    buildCommand: ./install-deps.sh && npm run build
     startCommand: npm run start
     envVars:
       - key: NODE_ENV
