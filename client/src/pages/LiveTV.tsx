@@ -156,9 +156,13 @@ export default function LiveTV() {
 
           {/* Categorias */}
           <Tabs value={activeCategory} onValueChange={setActiveCategory}>
-            <TabsList className="flex-wrap h-auto">
+            <TabsList className="w-full justify-start overflow-x-auto h-auto flex-nowrap bg-transparent border-b">
               {categories.map((category) => (
-                <TabsTrigger key={category} value={category}>
+                <TabsTrigger 
+                  key={category} 
+                  value={category}
+                  className="whitespace-nowrap text-xs sm:text-sm"
+                >
                   {category}
                 </TabsTrigger>
               ))}

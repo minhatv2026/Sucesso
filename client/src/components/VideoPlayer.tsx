@@ -38,7 +38,7 @@ export default function VideoPlayer({
     setError(null);
 
     try {
-      if (type === "hls") {
+      if (type === "hls" || src.endsWith(".ts") || src.endsWith(".m3u8")) {
         // Usar HLS.js para melhor compatibilidade
         if (Hls.isSupported()) {
           // Destruir instância anterior se existir
@@ -51,41 +51,55 @@ export default function VideoPlayer({
             enableWorker: true,
             lowLatencyMode: true,
             backBufferLength: 90,
+            xhrSetup: (xhr, url) => {
+              // Adicionar headers para contornar CORS
+              xhr.withCredentials = false;
+            },
           });
 
           hlsRef.current = hls;
 
           // Event listeners
           hls.on(Hls.Events.MANIFEST_PARSED, () => {
-            console.log("HLS manifest carregado com sucesso");
+            console.log("✅ HLS manifest carregado com sucesso");
             setIsLoading(false);
             // Auto-play se possível
-            video.play().catch(() => {
-              console.log("Autoplay bloqueado pelo navegador");
+            video.play().catch((err) => {
+              console.log("⚠️ Autoplay bloqueado pelo navegador:", err);
             });
           });
 
           hls.on(Hls.Events.ERROR, (event, data) => {
-            console.error("Erro HLS:", data);
+            console.error("❌ Erro HLS:", data);
             if (data.fatal) {
               switch (data.type) {
                 case Hls.ErrorTypes.NETWORK_ERROR:
-                  setError("Erro de conexão. Verifique sua internet.");
+                  console.error("Erro de rede ao carregar stream");
+                  setError("Erro de conexão. O stream pode estar indisponível.");
                   break;
                 case Hls.ErrorTypes.MEDIA_ERROR:
-                  setError("Erro ao reproduzir o vídeo.");
+                  console.error("Erro de mídia");
+                  setError("Erro ao reproduzir o vídeo. Tente outro canal.");
                   break;
                 default:
-                  setError("Erro ao carregar o stream.");
+                  console.error("Erro fatal desconhecido");
+                  setError("Erro ao carregar o stream. Tente novamente.");
               }
               setIsLoading(false);
             }
           });
 
-          hls.loadSource(src);
-          hls.attachMedia(video);
+          try {
+            hls.loadSource(src);
+            hls.attachMedia(video);
+          } catch (err) {
+            console.error("Erro ao carregar source:", err);
+            setError("Erro ao carregar o stream.");
+            setIsLoading(false);
+          }
         } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
           // Fallback para Safari/iOS
+          console.log("Usando suporte nativo HLS do Safari");
           video.src = src;
           setIsLoading(false);
         } else {
@@ -103,7 +117,7 @@ export default function VideoPlayer({
         video.currentTime = initialProgress;
       }
     } catch (err) {
-      console.error("Erro ao inicializar player:", err);
+      console.error("❌ Erro ao inicializar player:", err);
       setError("Erro ao inicializar o player.");
       setIsLoading(false);
     }
@@ -130,12 +144,36 @@ export default function VideoPlayer({
     const handleLoadStart = () => setIsLoading(true);
     const handleCanPlay = () => setIsLoading(false);
 
+    const handleError = (e: Event) => {
+      const videoElement = e.target as HTMLVideoElement;
+      console.error("Erro no elemento video:", videoElement.error);
+      if (videoElement.error) {
+        switch (videoElement.error.code) {
+          case videoElement.error.MEDIA_ERR_ABORTED:
+            setError("Reprodução abortada.");
+            break;
+          case videoElement.error.MEDIA_ERR_NETWORK:
+            setError("Erro de rede ao carregar o vídeo.");
+            break;
+          case videoElement.error.MEDIA_ERR_DECODE:
+            setError("Erro ao decodificar o vídeo.");
+            break;
+          case videoElement.error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+            setError("Formato de vídeo não suportado.");
+            break;
+          default:
+            setError("Erro desconhecido ao reproduzir vídeo.");
+        }
+      }
+    };
+
     video.addEventListener("timeupdate", handleTimeUpdate);
     video.addEventListener("loadedmetadata", handleLoadedMetadata);
     video.addEventListener("play", handlePlay);
     video.addEventListener("pause", handlePause);
     video.addEventListener("loadstart", handleLoadStart);
     video.addEventListener("canplay", handleCanPlay);
+    video.addEventListener("error", handleError);
 
     return () => {
       video.removeEventListener("timeupdate", handleTimeUpdate);
@@ -144,6 +182,7 @@ export default function VideoPlayer({
       video.removeEventListener("pause", handlePause);
       video.removeEventListener("loadstart", handleLoadStart);
       video.removeEventListener("canplay", handleCanPlay);
+      video.removeEventListener("error", handleError);
     };
   }, [src, type, initialProgress, onProgress]);
 
@@ -165,7 +204,7 @@ export default function VideoPlayer({
       video.pause();
     } else {
       video.play().catch((err) => {
-        console.error("Erro ao reproduzir:", err);
+        console.error("❌ Erro ao reproduzir:", err);
         setError("Não foi possível reproduzir o vídeo.");
       });
     }
@@ -186,7 +225,7 @@ export default function VideoPlayer({
     if (!isFullscreen) {
       if (container.requestFullscreen) {
         container.requestFullscreen().catch((err) => {
-          console.error("Erro ao entrar em fullscreen:", err);
+          console.error("❌ Erro ao entrar em fullscreen:", err);
         });
       }
       setIsFullscreen(true);
@@ -223,13 +262,13 @@ export default function VideoPlayer({
   return (
     <div 
       ref={containerRef}
-      className="relative w-full bg-black rounded-lg overflow-hidden group"
+      className="relative w-full bg-black rounded-lg overflow-hidden group aspect-video"
       onMouseEnter={() => setShowControls(true)}
       onMouseLeave={() => setShowControls(false)}
     >
       <video
         ref={videoRef}
-        className="w-full h-full"
+        className="w-full h-full object-contain"
         poster={poster}
         playsInline
         onClick={togglePlay}
@@ -246,13 +285,12 @@ export default function VideoPlayer({
       {/* Error State */}
       {error && (
         <div className="absolute inset-0 flex items-center justify-center bg-black/80">
-          <div className="text-center text-white">
+          <div className="text-center text-white max-w-sm">
             <AlertCircle className="h-12 w-12 mx-auto mb-4 text-red-500" />
-            <p className="text-sm">{error}</p>
+            <p className="text-sm mb-4">{error}</p>
             <Button
               variant="outline"
               size="sm"
-              className="mt-4"
               onClick={togglePlay}
             >
               Tentar Novamente
