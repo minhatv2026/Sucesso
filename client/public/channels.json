@@ -1,0 +1,1437 @@
+[
+  {
+    "tvgId": "1001Noites.br@SD",
+    "logo": "https://i.imgur.com/dWA9y2J.png",
+    "category": "Shop",
+    "name": "1001 Noites (720p) [Not 24/7]",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8"
+  },
+  {
+    "tvgId": "AdessoTV.br@SD",
+    "logo": "https://i.postimg.cc/3J4hysL3/adessotv.png",
+    "category": "General",
+    "name": "Adesso TV (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8"
+  },
+  {
+    "tvgId": "AgroBrasilTV.br@SD",
+    "logo": "https://i.imgur.com/aNkP7Zd.png",
+    "category": "Outdoor",
+    "name": "AgroBrasil TV (720p) [Not 24/7]",
+    "streamUrl": "http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8"
+  },
+  {
+    "tvgId": "AlphaChannel.br@SD",
+    "logo": "https://i.imgur.com/c1QqslA.png",
+    "category": "General",
+    "name": "Alpha Channel (720p)",
+    "streamUrl": "https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8"
+  },
+  {
+    "tvgId": "AmazonSat.br@SD",
+    "logo": "https://i.imgur.com/7rjCS5i.png",
+    "category": "Undefined",
+    "name": "Amazon Sat (1080p)",
+    "streamUrl": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8"
+  },
+  {
+    "tvgId": "AngelTV.in@Portuguese",
+    "logo": "https://i.imgur.com/qKLEGU7.png",
+    "category": "Religious",
+    "name": "Angel TV Portuguese (720p)",
+    "streamUrl": "https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8"
+  },
+  {
+    "tvgId": "AWTV.br@HD",
+    "logo": "https://i.imgur.com/2tdMyef.png",
+    "category": "Classic;Series",
+    "name": "AWTV (1080p)",
+    "streamUrl": "https://acesso.ecast.site:3070/live/awtvlive.m3u8"
+  },
+  {
+    "tvgId": "BDCTV.br@SD",
+    "logo": "https://i.imgur.com/6ckHV6k.jpeg",
+    "category": "Entertainment",
+    "name": "BDC TV (576p)",
+    "streamUrl": "https://video01.kshost.com.br/bdctv/bdctv/playlist.m3u8"
+  },
+  {
+    "tvgId": "BemTV.br@SD",
+    "logo": "https://i.imgur.com/ifGQGJx.png",
+    "category": "General",
+    "name": "Bem TV (720p)",
+    "streamUrl": "http://wz4.dnip.com.br/bemtv/bemtv.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "BoasNovas.br@SD",
+    "logo": "https://i.imgur.com/ZqhizdP.png",
+    "category": "Undefined",
+    "name": "Boas Novas (1080p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8"
+  },
+  {
+    "tvgId": "CaboFrioTV.br@SD",
+    "logo": "https://i.imgur.com/mPi6Wp3.png",
+    "category": "Entertainment",
+    "name": "Cabo Frio TV (720p)",
+    "streamUrl": "https://59f2354c05961.streamlock.net:1443/ararutv/_definst_/ararutv/playlist.m3u8"
+  },
+  {
+    "tvgId": "Canal25Jundiai.br@SD",
+    "logo": "https://i.imgur.com/7igGMwH.png",
+    "category": "Undefined",
+    "name": "Canal 25 Jundiaí (404p) [Not 24/7]",
+    "streamUrl": "https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8"
+  },
+  {
+    "tvgId": "Canal38.br@SD",
+    "logo": "https://i.imgur.com/co7TCWC.png",
+    "category": "News",
+    "name": "Canal 38 (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanaldoCriador.br@SD",
+    "logo": "https://i.imgur.com/k29So6X.png",
+    "category": "Outdoor",
+    "name": "Canal do Criador (1080p)",
+    "streamUrl": "https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanaldoInter.br@SD",
+    "logo": "https://i.imgur.com/TQFWEIS.png",
+    "category": "Sports",
+    "name": "Canal do Inter (720p) [Not 24/7]",
+    "streamUrl": "https://video01.soultv.com.br/internacional/internacional/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanalEducacao.br@SD",
+    "logo": "https://i.imgur.com/OOB7nrS.png",
+    "category": "Education",
+    "name": "Canal Educação (720p)",
+    "streamUrl": "https://canaleducacao-stream.ebc.com.br/index.m3u8"
+  },
+  {
+    "tvgId": "CanalGov.br@SD",
+    "logo": "https://i.imgur.com/rHPY0Yv.png",
+    "category": "Legislative",
+    "name": "Canal Gov (720p)",
+    "streamUrl": "https://canalgov-stream.ebc.com.br/index.m3u8"
+  },
+  {
+    "tvgId": "CanalLibras.br@SD",
+    "logo": "https://i.imgur.com/LnWWKzP.png",
+    "category": "General",
+    "name": "Canal Libras (720p)",
+    "streamUrl": "https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8"
+  },
+  {
+    "tvgId": "CanalRicos.br@SD",
+    "logo": "https://i.imgur.com/hs2YVJ3.png",
+    "category": "General",
+    "name": "Canal Ricos (480p)",
+    "streamUrl": "https://5d82644094cc0.streamlock.net/ricostv/ricostv/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanalRural.br@SD",
+    "logo": "https://i.imgur.com/w9R9IIX.png",
+    "category": "Outdoor",
+    "name": "Canal Rural (1080p)",
+    "streamUrl": "https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanalSaude.br@SD",
+    "logo": "https://i.imgur.com/ht4tUOc.png",
+    "category": "Education;Lifestyle",
+    "name": "Canal Saúde (720p) [Not 24/7]",
+    "streamUrl": "https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8"
+  },
+  {
+    "tvgId": "CanalSete.br@SD",
+    "logo": "https://i.imgur.com/0cq0BPp.png",
+    "category": "General",
+    "name": "Canal Sete (1080p)",
+    "streamUrl": "http://189.51.193.70:1935/canalsete/xpl-c7/playlist.m3u8"
+  },
+  {
+    "tvgId": "Catve2.br@SD",
+    "logo": "https://i.imgur.com/qiVfsfB.png",
+    "category": "General",
+    "name": "Catve2 (720p)",
+    "streamUrl": "https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8"
+  },
+  {
+    "tvgId": "CatveFM.br@SD",
+    "logo": "https://i.imgur.com/w89yw36.png",
+    "category": "General",
+    "name": "Catve FM (720p) [Not 24/7]",
+    "streamUrl": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8"
+  },
+  {
+    "tvgId": "CatveMasterTV.br@SD",
+    "logo": "https://i.imgur.com/4m7Iazm.png",
+    "category": "General",
+    "name": "Catve Master TV (720p) [Not 24/7]",
+    "streamUrl": "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8"
+  },
+  {
+    "tvgId": "ChromaTV.br@SD",
+    "logo": "https://i.imgur.com/SnaIMgj.png",
+    "category": "Entertainment",
+    "name": "Chroma TV (480p)",
+    "streamUrl": "https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8"
+  },
+  {
+    "tvgId": "ClassiqueTV.br@SD",
+    "logo": "https://i.imgur.com/rHxcraT.png",
+    "category": "Movies",
+    "name": "Classique TV (360p)",
+    "streamUrl": "https://stmv1.srvif.com/classique/classique/playlist.m3u8"
+  },
+  {
+    "tvgId": "COMBrasil.br@SD",
+    "logo": "https://i.imgur.com/GrjGwKM.png",
+    "category": "General",
+    "name": "COM Brasil (1080p) [Not 24/7]",
+    "streamUrl": "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8"
+  },
+  {
+    "tvgId": "Combate.br@SD",
+    "logo": "https://i.imgur.com/ZPYK5jr.png",
+    "category": "Sports",
+    "name": "Combate Global",
+    "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=960"
+  },
+  {
+    "tvgId": "ConectaMaisTV.br@SD",
+    "logo": "https://i.imgur.com/qHwTWlz.png",
+    "category": "Entertainment",
+    "name": "Conecta+ TV (720p)",
+    "streamUrl": "http://189.14.239.62:1935/webtv/livestream1/playlist.m3u8"
+  },
+  {
+    "tvgId": "ConecTVBrasil.br@SD",
+    "logo": "https://i.imgur.com/XN6jjMR.png",
+    "category": "General",
+    "name": "ConecTV Brasil (720p)",
+    "streamUrl": "https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8"
+  },
+  {
+    "tvgId": "ConexaoTV.br@SD",
+    "logo": "https://i.imgur.com/CJ9SPsZ.png",
+    "category": "General",
+    "name": "Conexão TV (720p)",
+    "streamUrl": "https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "CulturaPara.br@SD",
+    "logo": "https://i.imgur.com/5jPEI5c.png",
+    "category": "General",
+    "name": "Cultura Pará (480p) [Not 24/7]",
+    "streamUrl": "http://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8"
+  },
+  {
+    "tvgId": "CWBTV.br@SD",
+    "logo": "https://i.imgur.com/S0ISpmU.png",
+    "category": "Family;General",
+    "name": "CWB TV (720p)",
+    "streamUrl": "https://59d39900ebfb8.streamlock.net/cwbtv/cwbtv/playlist.m3u8"
+  },
+  {
+    "tvgId": "DemaisTV.br@SD",
+    "logo": "https://i.imgur.com/Md3xibE.png",
+    "category": "General",
+    "name": "Demais TV (720p)",
+    "streamUrl": "https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8"
+  },
+  {
+    "tvgId": "DespertarTV.br@HD",
+    "logo": "https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png",
+    "category": "Religious",
+    "name": "Despertar TV (720p)",
+    "streamUrl": "https://cdn.live.br1.jmvstream.com/webtv/pejexypz/playlist/playlist.m3u8"
+  },
+  {
+    "tvgId": "ElementalChannel.br@SD",
+    "logo": "https://i.imgur.com/8upyApg.png",
+    "category": "Entertainment",
+    "name": "Elemental Channel (1080p)",
+    "streamUrl": "https://5d82644094cc0.streamlock.net/8116/8116/playlist.m3u8"
+  },
+  {
+    "tvgId": "ElyTV.br@SD",
+    "logo": "https://i.imgur.com/1eHNe91.png",
+    "category": "Entertainment",
+    "name": "ElyTV (360p)",
+    "streamUrl": "https://stmv1.srvsite.com/ely/ely/playlist.m3u8"
+  },
+  {
+    "tvgId": "EUTV.br@SD",
+    "logo": "https://i.imgur.com/8PxpamC.png",
+    "category": "General",
+    "name": "EUTV (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8"
+  },
+  {
+    "tvgId": "FalaLitoral.br@SD",
+    "logo": "https://i.imgur.com/NF6PL8O.png",
+    "category": "General",
+    "name": "Fala Litoral (480p)",
+    "streamUrl": "https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8"
+  },
+  {
+    "tvgId": "FonteTV.br@SD",
+    "logo": "https://i.imgur.com/7q2BmNc.png",
+    "category": "Religious",
+    "name": "Fonte TV (1080p) [Not 24/7]",
+    "streamUrl": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8"
+  },
+  {
+    "tvgId": "Geekdot.br@SD",
+    "logo": "https://i.imgur.com/jML1u4O.png",
+    "category": "Animation",
+    "name": "Geekdot (720p)",
+    "streamUrl": "https://stream.ichibantv.com:3764/hybrid/play.m3u8"
+  },
+  {
+    "tvgId": "GhostTV.br@SD",
+    "logo": "https://i.imgur.com/ZVO8GVI.png",
+    "category": "Movies",
+    "name": "Ghost TV (712p) [Not 24/7]",
+    "streamUrl": "https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8"
+  },
+  {
+    "tvgId": "GospelCartoon.br@SD",
+    "logo": "https://i.imgur.com/yxjPno5.png",
+    "category": "Religious",
+    "name": "Gospel Cartoon (360p)",
+    "streamUrl": "https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8"
+  },
+  {
+    "tvgId": "GospelMovieTV.br@SD",
+    "logo": "https://i.imgur.com/cQN3nWt.png",
+    "category": "Religious",
+    "name": "Gospel Movie TV (360p)",
+    "streamUrl": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8"
+  },
+  {
+    "tvgId": "IMPDTV.br@SD",
+    "logo": "https://i.imgur.com/23m7LHH.png",
+    "category": "Religious",
+    "name": "IMPD TV (720p)",
+    "streamUrl": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8"
+  },
+  {
+    "tvgId": "ISTV.br@SD",
+    "logo": "https://i.imgur.com/RUKVrOH.png",
+    "category": "Education",
+    "name": "ISTV (720p) [Not 24/7]",
+    "streamUrl": "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8"
+  },
+  {
+    "tvgId": "JovemPanNews.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/512px-Jovem_Pan_logo_2018.svg.png",
+    "category": "News",
+    "name": "Jovem Pan News (JP News) (1080p) [Not 24/7]",
+    "streamUrl": "https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8"
+  },
+  {
+    "tvgId": "KpopTVPlay.br@SD",
+    "logo": "https://i.imgur.com/Tf0vweF.png",
+    "category": "Music",
+    "name": "KpopTV Play (576p)",
+    "streamUrl": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8"
+  },
+  {
+    "tvgId": "KuriakosKids.pt@SD",
+    "logo": "https://i.imgur.com/SRX6EPY.png",
+    "category": "Animation;Kids;Religious",
+    "name": "Kuriakos Kids (1080p)",
+    "streamUrl": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8"
+  },
+  {
+    "tvgId": "Loading.br@SD",
+    "logo": "https://i.imgur.com/R0aflu1.png",
+    "category": "Entertainment",
+    "name": "Loading (720p)",
+    "streamUrl": "https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8"
+  },
+  {
+    "tvgId": "MasterShowTV.br@SD",
+    "logo": "https://i.imgur.com/haXHFCT.png",
+    "category": "Music",
+    "name": "Master Show TV (360p)",
+    "streamUrl": "https://mastershowtv.videovox.pw/master6123/master6123/playlist.m3u8"
+  },
+  {
+    "tvgId": "MKKWebTV.br@SD",
+    "logo": "https://i.imgur.com/A8Yhtid.png",
+    "category": "General",
+    "name": "MKK Web TV (720p) [Not 24/7]",
+    "streamUrl": "https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8"
+  },
+  {
+    "tvgId": "MyTimeMovieNetwork.br@SD",
+    "logo": "https://i.imgur.com/aiGQtzI.png",
+    "category": "Movies",
+    "name": "MyTime Movie Network Brazil (720p)",
+    "streamUrl": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8"
+  },
+  {
+    "tvgId": "NovaEraTV.br@SD",
+    "logo": "https://i.imgur.com/IK3F9Uq.png",
+    "category": "Undefined",
+    "name": "Nova Era TV (1080p) [Not 24/7]",
+    "streamUrl": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8"
+  },
+  {
+    "tvgId": "NovaTVAgrotour.br@SD",
+    "logo": "https://i.imgur.com/cgN2hfm.png",
+    "category": "Documentary;Science",
+    "name": "Nova TV Agrotour (360p)",
+    "streamUrl": "https://video01.kshost.com.br/marcelo6682/marcelo6682/playlist.m3u8"
+  },
+  {
+    "tvgId": "NovoTempo.br@SD",
+    "logo": "https://i.postimg.cc/mgpGyqRg/novotempo.png",
+    "category": "Religious",
+    "name": "Novo Tempo (720p)",
+    "streamUrl": "https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8"
+  },
+  {
+    "tvgId": "PlayTV.br@SD",
+    "logo": "https://i.imgur.com/Ikrj3lk.png",
+    "category": "Undefined",
+    "name": "Play TV (720p)",
+    "streamUrl": "https://playtv.mediastreaming.com.br/play/live.stream/playlist.m3u8"
+  },
+  {
+    "tvgId": "PlenaTV.br@SD",
+    "logo": "https://i.imgur.com/lH4RT7b.png",
+    "category": "News",
+    "name": "Plena TV (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8"
+  },
+  {
+    "tvgId": "PlutoTVCineDrama.us@Brazil",
+    "logo": "https://i.imgur.com/AQBtheU.png",
+    "category": "Movies",
+    "name": "Pluto TV Cine Drama (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1210d14ae1f80007bafb1d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PlutoTVCineFamilia.us@Brazil",
+    "logo": "https://i.imgur.com/r9UhBfV.png",
+    "category": "Movies",
+    "name": "Pluto TV Cine Família (720p) [Not 24/7]",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f171f032cd22e0007f17f3d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PlutoTVInvestigacao.us@Brazil",
+    "logo": "https://i.imgur.com/JlQq0YJ.png",
+    "category": "Documentary",
+    "name": "Pluto TV Investigação (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32cf37c9ff2b00082adbc8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "MTV.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
+    "category": "Entertainment",
+    "name": "Pluto TV MTV (Brazil) (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212fb81e85c00077ae9ef/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PlutoTVNatureza.us@Brazil",
+    "logo": "https://i.imgur.com/RuyQQ6M.png",
+    "category": "Education",
+    "name": "Pluto TV Natureza (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PlutoTVRetro.us@Brazil",
+    "logo": "https://i.imgur.com/wztO3GM.png",
+    "category": "Entertainment",
+    "name": "Pluto TV Retrô (684p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1212ad1728050007a523b8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "TurmadaMonica.us@Brazil",
+    "logo": "https://i.imgur.com/nrvPPrW.png",
+    "category": "Kids",
+    "name": "Pluto TV Turma da Mônica (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f997e44949bc70007a6941e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PlutoTVVidaReal.us@Brazil",
+    "logo": "https://i.imgur.com/dRbBbxP.png",
+    "category": "Education",
+    "name": "Pluto TV Vida Real (720p)",
+    "streamUrl": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32d4d9ec194100070c7449/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS"
+  },
+  {
+    "tvgId": "PrimerTV.br@SD",
+    "logo": "https://i.imgur.com/PMptSP3.png",
+    "category": "General",
+    "name": "Primer TV (1080p)",
+    "streamUrl": "http://200.194.238.229:8383/live/primer/playlist.m3u8"
+  },
+  {
+    "tvgId": "RBATV.br@SD",
+    "logo": "https://i.imgur.com/ZWFxlU1.png",
+    "category": "General",
+    "name": "RBATV (720p)",
+    "streamUrl": "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8"
+  },
+  {
+    "tvgId": "Record.br@SD",
+    "logo": "https://i.imgur.com/sz9gTTr.png",
+    "category": "General",
+    "name": "Record",
+    "streamUrl": "https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8"
+  },
+  {
+    "tvgId": "RecordNews.br@SD",
+    "logo": "https://i.imgur.com/HZDRG0K.png",
+    "category": "News",
+    "name": "Record News (720p) [Geo-blocked]",
+    "streamUrl": "https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8"
+  },
+  {
+    "tvgId": "RecordTVBelem.br@SD",
+    "logo": "https://i.imgur.com/gEEiN10.png",
+    "category": "General",
+    "name": "Record TV Belem (720p) [Geo-blocked]",
+    "streamUrl": "https://playpluspa-lh.akamaihd.net/i/pp_pa@377468/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordTVBrasilia.br@SD",
+    "logo": "https://i.imgur.com/PZMas8Y.png",
+    "category": "General",
+    "name": "Record TV Brasilia (720p) [Geo-blocked]",
+    "streamUrl": "https://playplusbsa-lh.akamaihd.net/i/pp_bsa@377860/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordTVGoias.br@SD",
+    "logo": "https://i.imgur.com/Fdoax1M.png",
+    "category": "General",
+    "name": "Record TV Goias (720p) [Geo-blocked]",
+    "streamUrl": "https://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordTVItapoan.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/13/Logotipo_da_RecordTV_Itapoan.png/512px-Logotipo_da_RecordTV_Itapoan.png",
+    "category": "General",
+    "name": "Record TV Itapoan (720p) [Geo-blocked]",
+    "streamUrl": "https://playplussdr-lh.akamaihd.net/i/pp_sdr@377858/index_720_av-b.m3u8"
+  },
+  {
+    "tvgId": "RecordTVRio.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Logotipo_da_RecordTV_Rio.png/512px-Logotipo_da_RecordTV_Rio.png",
+    "category": "General",
+    "name": "Record TV Rio (720p) [Geo-blocked]",
+    "streamUrl": "https://playplusrjo-lh.akamaihd.net/i/pp_rj@377859/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordRS.br@SD",
+    "logo": "https://i.imgur.com/JLQWoNc.png",
+    "category": "General",
+    "name": "Record TV RS (720p) [Geo-blocked]",
+    "streamUrl": "https://playpluspoa-lh.akamaihd.net/i/pp_poa@377864/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordTVSaoPaulo.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/10/Logotipo_da_Record.png/512px-Logotipo_da_Record.png",
+    "category": "General",
+    "name": "Record TV SP (720p) [Geo-blocked]",
+    "streamUrl": "https://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8"
+  },
+  {
+    "tvgId": "RecordTVInteriorSP.br@SD",
+    "logo": "https://i.imgur.com/VcHy0fu.png",
+    "category": "General",
+    "name": "RecordTV Interior SP",
+    "streamUrl": "http://200.77.176.130:8000/udp/224.0.0.4:49152"
+  },
+  {
+    "tvgId": "RedeCNTSalvador.br@SD",
+    "logo": "https://i.imgur.com/jcasAmw.png",
+    "category": "General",
+    "name": "Rede CNT Salvador (576i)",
+    "streamUrl": "http://168.205.87.198:8555/live/1368/123456/150.m3u8"
+  },
+  {
+    "tvgId": "RedeMetropole.br@SD",
+    "logo": "https://i.imgur.com/qJx9Zvd.png",
+    "category": "General",
+    "name": "Rede Metrópole (1080p)",
+    "streamUrl": "https://acesso.ecast.site:3456/hybrid/play.m3u8"
+  },
+  {
+    "tvgId": "RedeMinas.br@SD",
+    "logo": "https://i.imgur.com/MtQWAHv.png",
+    "category": "Education",
+    "name": "Rede Minas (1080p) [Not 24/7]",
+    "streamUrl": "https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8"
+  },
+  {
+    "tvgId": "RedeNGT.br@SD",
+    "logo": "https://i.imgur.com/ZFN1R4B.png",
+    "category": "Entertainment",
+    "name": "Rede NGT (1080p)",
+    "streamUrl": "https://isaocorp.cloudecast.com/ngt/index.m3u8"
+  },
+  {
+    "tvgId": "RedeRC.br@SD",
+    "logo": "https://i.imgur.com/y9dqo3f.png",
+    "category": "Undefined",
+    "name": "Rede RC (720p) [Not 24/7]",
+    "streamUrl": "http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8"
+  },
+  {
+    "tvgId": "RedeSPTV.br@SD",
+    "logo": "https://i.imgur.com/kh3LGAP.png",
+    "category": "General",
+    "name": "Rede SPTV (360p)",
+    "streamUrl": "https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8"
+  },
+  {
+    "tvgId": "RedeTV.br@SD",
+    "logo": "https://i.imgur.com/ZJgD38F.png",
+    "category": "General",
+    "name": "Rede TV! (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/AVJ-15235/playlist/playlist.m3u8"
+  },
+  {
+    "tvgId": "RedeTVES.br@SD",
+    "logo": "https://i.imgur.com/k7vO9Bk.png",
+    "category": "General",
+    "name": "Rede TV! ES (1080p)",
+    "streamUrl": "https://streaming.cloudecast.com/hls/redetves/index.m3u8"
+  },
+  {
+    "tvgId": "RevryBrasil.us@SD",
+    "logo": "https://images.samsung.com/is/image/samsung/assets/br/tvs/smart-tv/channel-list/Revry_Brasil_476x476circle.png?$ORIGIN_PNG$",
+    "category": "Lifestyle",
+    "name": "Revry Brasil",
+    "streamUrl": "https://linear-181.frequency.stream/dist/24i/181/hls/master/playlist.m3u8"
+  },
+  {
+    "tvgId": "RITTV.br@SD",
+    "logo": "https://i.imgur.com/Unjs1wi.png",
+    "category": "Religious",
+    "name": "RIT TV (1080p)",
+    "streamUrl": "https://acesso.ecast.site:3648/live/ritlive.m3u8"
+  },
+  {
+    "tvgId": "SantaCeciliaTV.br@SD",
+    "logo": "https://i.imgur.com/KxYsq1d.png",
+    "category": "Education",
+    "name": "Santa Cecilia TV (1080p) [Not 24/7]",
+    "streamUrl": "http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8"
+  },
+  {
+    "tvgId": "SBTInterior.br@SD",
+    "logo": "https://i.imgur.com/IkZfa4j.png",
+    "category": "General",
+    "name": "SBT Interior (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8"
+  },
+  {
+    "tvgId": "SertaoTV.br@SD",
+    "logo": "https://i.imgur.com/b5xOCsC.png",
+    "category": "General",
+    "name": "Sertão TV (720p)",
+    "streamUrl": "http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "SESCTV.br@SD",
+    "logo": "https://i.imgur.com/Mu8O6CV.png",
+    "category": "Undefined",
+    "name": "SESC TV (1080p)",
+    "streamUrl": "https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/93a9920d-1b24-4c5e-a7d2-63d5489f59b5_index.m3u8"
+  },
+  {
+    "tvgId": "SICTV.br@SD",
+    "logo": "https://i.imgur.com/mHxQyB2.png",
+    "category": "Undefined",
+    "name": "SIC TV (720p)",
+    "streamUrl": "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8"
+  },
+  {
+    "tvgId": "STZTV.br@SD",
+    "logo": "https://i.imgur.com/SeF2I7q.png",
+    "category": "Culture;News",
+    "name": "STZ TV (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/AVJ-12952/playlist/playlist.m3u8"
+  },
+  {
+    "tvgId": "SuperflixTV.br@HD",
+    "logo": "https://i.imgur.com/lvUbMen.png",
+    "category": "Entertainment;Movies;Series",
+    "name": "Superflix TV (720p)",
+    "streamUrl": "https://streaming.cloudecast.com/hls/superflix/index.m3u8"
+  },
+  {
+    "tvgId": "TCM10HD.br@SD",
+    "logo": "https://i.imgur.com/aMuMVvB.png",
+    "category": "News",
+    "name": "TCM 10 HD (1080p)",
+    "streamUrl": "https://live.tcm10.com.br/tcm10hd/stream.m3u8"
+  },
+  {
+    "tvgId": "TELE6.bo@SD",
+    "logo": "https://i.imgur.com/p7tt72X.png",
+    "category": "General",
+    "name": "TELE 6",
+    "streamUrl": "https://envivo.bolivia-link.com:3337/live/tele6live.m3u8"
+  },
+  {
+    "tvgId": "TimesBrasil.br@SD",
+    "logo": "https://i.ibb.co/X726G1j/Times-Brasil-CNBC-logo-svg-1.png",
+    "category": "News",
+    "name": "Times Brasil (1080p)",
+    "streamUrl": "https://cr7v.short.gy/ManoTV/TimesBrasil/Whats75991634025/CNBC/Index.m3u8"
+  },
+  {
+    "tvgId": "TVA7Plus.br@SD",
+    "logo": "https://i.imgur.com/qeo2oPM.png",
+    "category": "Entertainment;Music;News",
+    "name": "TV A7 Plus (1080p)",
+    "streamUrl": "https://srv3.zcast.com.br/wellington7720/wellington7720/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAFolha.br@SD",
+    "logo": "https://i.imgur.com/I7XGMhj.png",
+    "category": "News",
+    "name": "TV A Folha (720p)",
+    "streamUrl": "https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAldeia.br@SD",
+    "logo": "https://i.imgur.com/rsfnv4Z.png",
+    "category": "General",
+    "name": "TV Aldeia (720p)",
+    "streamUrl": "https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAliancaCatarinense.br@SD",
+    "logo": "https://i.imgur.com/eqmOhtP.png",
+    "category": "General",
+    "name": "TV Aliança Catarinense (720p)",
+    "streamUrl": "https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAlternativa.br@SD",
+    "logo": "https://i.imgur.com/wM9xXhc.png",
+    "category": "General",
+    "name": "TV Alternativa (410p)",
+    "streamUrl": "https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAparecida.br@SD",
+    "logo": "https://i.imgur.com/kxrja0X.png",
+    "category": "Religious",
+    "name": "TV Aparecida (1080p) [Not 24/7]",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVArapuan.br@SD",
+    "logo": "https://i.imgur.com/3395A2h.png",
+    "category": "General",
+    "name": "TV Arapuan (720p)",
+    "streamUrl": "https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAratu.br@SD",
+    "logo": "https://i.imgur.com/LCETtuk.png",
+    "category": "Undefined",
+    "name": "TV Aratu (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-8379/LVW8379_rIq6ZYiIiA/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVAssembleiaCeara.br@SD",
+    "logo": "https://i.imgur.com/UPa1tjs.png",
+    "category": "Legislative",
+    "name": "TV Assembléia Ceará (720p)",
+    "streamUrl": "https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBahia.br@HD",
+    "logo": "https://i.imgur.com/sJOrvHg.png",
+    "category": "Undefined",
+    "name": "like Gecko) Chrome/129.0.0.0 Safari/537.36\",TV Bahia (1080i)",
+    "streamUrl": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8"
+  },
+  {
+    "tvgId": "TVBeltrao.br@SD",
+    "logo": "https://i.imgur.com/JxsyXCD.png",
+    "category": "General",
+    "name": "TV Beltrão (1080p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/tvbeltrao/tvbeltrao/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBirigui.br@SD",
+    "logo": "https://i.imgur.com/z7VlNLR.png",
+    "category": "General",
+    "name": "TV Birigui (640p)",
+    "streamUrl": "https://59f2354c05961.streamlock.net:1443/tvdigitalbirigui/_definst_/tvdigitalbirigui/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBoqueirao.br@SD",
+    "logo": "https://i.imgur.com/1XrArrG.png",
+    "category": "Entertainment",
+    "name": "TV Boqueirão (720p)",
+    "streamUrl": "https://srv3.zcast.com.br/tvboqueirao/tvboqueirao/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBrasil.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/320px-TvBrasil2023.png",
+    "category": "Undefined",
+    "name": "TV Brasil (720p)",
+    "streamUrl": "https://tvbrasil-stream.ebc.com.br/index.m3u8"
+  },
+  {
+    "tvgId": "TVBrasilCentral.br@SD",
+    "logo": "https://i.imgur.com/VgjVlp3.png",
+    "category": "Undefined",
+    "name": "TV Brasil Central (720p)",
+    "streamUrl": "https://tbc.zoeweb.tv/tbc/tbc/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBrasilOeste.br@SD",
+    "logo": "https://i.imgur.com/noqGfuy.png",
+    "category": "General",
+    "name": "TV Brasil Oeste (720p)",
+    "streamUrl": "https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBRICSPortuguese.br@SD",
+    "logo": "https://i.imgur.com/vLpm8tN.png",
+    "category": "General",
+    "name": "TV BRICS Portuguese (1080p)",
+    "streamUrl": "https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBrusque.br@SD",
+    "logo": "https://i.imgur.com/J2EAZPS.png",
+    "category": "News",
+    "name": "TV Brusque (720p)",
+    "streamUrl": "https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCamara.br@SD",
+    "logo": "https://i.imgur.com/Sdou1Ab.png",
+    "category": "Legislative",
+    "name": "TV Câmara (1080p)",
+    "streamUrl": "https://stream3.camara.gov.br/tv1/manifest.m3u8"
+  },
+  {
+    "tvgId": "TVCamara2.br@SD",
+    "logo": "https://i.imgur.com/dHrUG1R.png",
+    "category": "Legislative",
+    "name": "TV Câmara 2 (1080p) [Not 24/7]",
+    "streamUrl": "https://stream3.camara.gov.br/tv2/manifest.m3u8"
+  },
+  {
+    "tvgId": "TVCamaraSalvador.br@SD",
+    "logo": "https://i.imgur.com/VEXEzSx.png",
+    "category": "Legislative",
+    "name": "TV Câmara Salvador (288p) [Not 24/7]",
+    "streamUrl": "https://596639ebdd89b.streamlock.net/8114/8114/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCancaoNova.br@SD",
+    "logo": "https://i.imgur.com/OaM9hkH.png",
+    "category": "Undefined",
+    "name": "TV Cancao Nova (720p)",
+    "streamUrl": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCeara.br@SD",
+    "logo": "https://i.imgur.com/rvQucQg.png",
+    "category": "Undefined",
+    "name": "TV Ceará (1080p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/AVJ-12940/playlist/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCidadedePetropolis.br@SD",
+    "logo": "https://i.imgur.com/xUs8gHV.png",
+    "category": "Undefined",
+    "name": "TV Cidade de Petrópolis (1080p) [Not 24/7]",
+    "streamUrl": "https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCidadeOeste.br@SD",
+    "logo": "https://i.imgur.com/EmYaxEh.png",
+    "category": "General",
+    "name": "TV Cidade Oeste",
+    "streamUrl": "https://radios.dataprimer.com.br:5443/LiveApp/streams/psuqNyPC1AW1BcUZ1573443847601.m3u8"
+  },
+  {
+    "tvgId": "TVCidadeVerde.br@SD",
+    "logo": "https://i.imgur.com/SysgBqZ.png",
+    "category": "General",
+    "name": "TV Cidade Verde (720p)",
+    "streamUrl": "https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCidadeVerdeCuiaba.br@SD",
+    "logo": "https://i.imgur.com/e67h04h.png",
+    "category": "Undefined",
+    "name": "TV Cidade Verde Cuiaba",
+    "streamUrl": "https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8"
+  },
+  {
+    "tvgId": "TVClube.br@SD",
+    "logo": "https://i.imgur.com/CpXjcyE.png",
+    "category": "Undefined",
+    "name": "TV Clube (720p)",
+    "streamUrl": "https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCNAgitos.br@SD",
+    "logo": "https://i.imgur.com/5gvGC0P.png",
+    "category": "Entertainment",
+    "name": "TV CN Agitos (360p)",
+    "streamUrl": "https://serv2.videovox.pw/cnagitos/cnagitos/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCOMSantos.br@SD",
+    "logo": "https://i.imgur.com/KX3fner.png",
+    "category": "General",
+    "name": "TV COM Santos (416p)",
+    "streamUrl": "https://srv1.zcast.com.br/tvcomsantos/tvcomsantos/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCultura.br@SD",
+    "logo": "https://i.ibb.co/nm0jXMM/cultura-3x.png",
+    "category": "Undefined",
+    "name": "TV Cultura",
+    "streamUrl": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8"
+  },
+  {
+    "tvgId": "TVCuruca.br@SD",
+    "logo": "https://i.imgur.com/JdCKNZ4.png",
+    "category": "Entertainment",
+    "name": "TV Curuça (360p)",
+    "streamUrl": "https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVdasArtes.br@SD",
+    "logo": "https://i.imgur.com/fSWaiKt.png",
+    "category": "Culture",
+    "name": "TV das Artes (360p)",
+    "streamUrl": "http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVDestak.br@SD",
+    "logo": "https://i.imgur.com/YoCVrav.png",
+    "category": "General",
+    "name": "TV Destak (360p)",
+    "streamUrl": "http://tv02.logicahost.com.br:1935/pascoal/pascoal/live.m3u8"
+  },
+  {
+    "tvgId": "TVDiarioMacapa.br@SD",
+    "logo": "https://i.imgur.com/yAW2Z5j.jpg",
+    "category": "General",
+    "name": "TV Diário Macapá (1080p) [Not 24/7]",
+    "streamUrl": "https://5ad482a77183d.streamlock.net/marliomelohotmail.com/marliomelohotmail.com/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVDifusoraLeste.br@SD",
+    "logo": "https://i.imgur.com/hEd25Cr.png",
+    "category": "General",
+    "name": "TV Difusora Leste (1080p)",
+    "streamUrl": "https://stream.amsolution.net.br:8443/live/60d0a8ea6b884/index.m3u8"
+  },
+  {
+    "tvgId": "TVDigitalBirigui.br@SD",
+    "logo": "https://i.imgur.com/B5ZTMzY.png",
+    "category": "Entertainment",
+    "name": "TV Digital Biriguí (640p)",
+    "streamUrl": "http://wse01.logicahost.com.br:1935/tvdigitalbirigui/_definst_/tvdigitalbirigui/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVdoPovo.br@SD",
+    "logo": "https://i.imgur.com/58EQ5qX.png",
+    "category": "News",
+    "name": "TV do Povo (540p)",
+    "streamUrl": "https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVEmpire.br@SD",
+    "logo": "https://i.imgur.com/tT1NVfV.png",
+    "category": "Entertainment",
+    "name": "TV Empire Magazine (720p)",
+    "streamUrl": "https://5d82644094cc0.streamlock.net/empiremagazinetv/empiremagazinetv/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVEncontrodasAguas.br@SD",
+    "logo": "https://www.lyngsat.com/logo/tv/tt/tv-encontro-das-aguas-br.png",
+    "category": "General",
+    "name": "TV Encontro das Aguas",
+    "streamUrl": "https://stmv7.samcast.com.br/sistemaencontrodasaguas/sistemaencontrodasaguas/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVEvangelizar.br@SD",
+    "logo": "https://i.imgur.com/IrYR7Kp.png",
+    "category": "Religious",
+    "name": "TV Evangelizar (480p)",
+    "streamUrl": "https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVFuturo.br@SD",
+    "logo": "https://i.imgur.com/xonrNBf.png",
+    "category": "General",
+    "name": "TV Futuro (1080p)",
+    "streamUrl": "https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVGideoes.br@SD",
+    "logo": "https://i.imgur.com/dDomKND.png",
+    "category": "Religious",
+    "name": "TV Gideoes (1080p) [Not 24/7]",
+    "streamUrl": "https://streaming01.zas.media/gideoes/programacao/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVGrandeNatal.br@SD",
+    "logo": "https://i.imgur.com/MTuErdw.png",
+    "category": "Entertainment",
+    "name": "TV Grande Natal (1080p)",
+    "streamUrl": "http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8"
+  },
+  {
+    "tvgId": "TVGraoPara.br@SD",
+    "logo": "https://i.imgur.com/1drg0E9.png",
+    "category": "General",
+    "name": "TV Grao Pará (720p)",
+    "streamUrl": "https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVGuara.br@SD",
+    "logo": "https://i.imgur.com/8PErNBT.png",
+    "category": "Undefined",
+    "name": "TV Guará (720p) [Not 24/7]",
+    "streamUrl": "https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVGuarapari.br@SD",
+    "logo": "https://i.imgur.com/eDNzwK0.png",
+    "category": "General",
+    "name": "TV Guarapari (1080p)",
+    "streamUrl": "https://ikki.hubcloud.tv.br/TVGuarapari/index.m3u8"
+  },
+  {
+    "tvgId": "TVInterlagos.br@SD",
+    "logo": "https://i.imgur.com/iuQVDpq.jpg",
+    "category": "Undefined",
+    "name": "TV Interlagos (360p)",
+    "streamUrl": "https://v8.ciclano.io:1443/tvinterlagos/_definst_/tvinterlagos/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVJapi.br@SD",
+    "logo": "https://i.imgur.com/dnmzIhF.png",
+    "category": "General",
+    "name": "TV Japi (720p)",
+    "streamUrl": "https://stmv1.paineltv.net/tvjapi/tvjapi/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVLiberdade.br@SD",
+    "logo": "https://i.imgur.com/W6bHHqE.png",
+    "category": "Undefined",
+    "name": "TV Liberdade (720p) [Not 24/7]",
+    "streamUrl": "https://srv1.paineldevideo.com/liberdaderadioetv/liberdaderadioetv/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVLifeAmerica.br@HD",
+    "logo": "https://i.imgur.com/HZI0ilU.png",
+    "category": "Culture",
+    "name": "TV Life America (720p)",
+    "streamUrl": "https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8"
+  },
+  {
+    "tvgId": "TVMaceio.br@SD",
+    "logo": "https://i.imgur.com/zZ9LEOZ.png",
+    "category": "General",
+    "name": "TV Maceió (360p)",
+    "streamUrl": "https://srv5.zcast.com.br/paulo4100/paulo4100/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMackenzie.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TV_Mackenzie_logo.svg/512px-TV_Mackenzie_logo.svg.png",
+    "category": "Education",
+    "name": "TV Mackenzie (480p)",
+    "streamUrl": "https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMaisMarica.br@SD",
+    "logo": "https://i.imgur.com/lgCRX7q.png",
+    "category": "General",
+    "name": "TV Mais Maricá (1080p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVManaBrasil.pt@SD",
+    "logo": "https://i.imgur.com/AFb712e.png",
+    "category": "Religious",
+    "name": "TV Maná Brasil (1080p)",
+    "streamUrl": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMarajoara.br@SD",
+    "logo": "https://i.imgur.com/9d9vBN7.png",
+    "category": "General",
+    "name": "TV Marajoara (720p)",
+    "streamUrl": "https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMAX.br@SD",
+    "logo": "https://i.imgur.com/2Pg0baJ.png",
+    "category": "Undefined",
+    "name": "TV MAX (720p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/tvmax/tvmax/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMetropole.br@SD",
+    "logo": "https://i.imgur.com/bJyjLpg.png",
+    "category": "General",
+    "name": "TV Metropole (720p) [Not 24/7]",
+    "streamUrl": "https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVModelo.br@SD",
+    "logo": "https://play-lh.googleusercontent.com/7kD2A0jUqWrVMxd_15RAPt9S0P9pxPMpNEc9dHOSl8Bi0DOMVlQHijXaL7ppUC5F46g",
+    "category": "Entertainment;General;News",
+    "name": "TV Modelo (720p)",
+    "streamUrl": "https://video09.logicahost.com.br/tvmodelo/tvmodelo/playlist.m3u"
+  },
+  {
+    "tvgId": "TVMon.br@SD",
+    "logo": "https://i.imgur.com/Gjan8rl.png",
+    "category": "Undefined",
+    "name": "TV Mon (720p)",
+    "streamUrl": "https://srv1.zcast.com.br/tvmon/tvmon/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVOmindare.br@SD",
+    "logo": "https://i.imgur.com/naZZUIT.png",
+    "category": "Culture",
+    "name": "TV Omindaré (360p)",
+    "streamUrl": "https://video01.kshost.com.br/lourdes52007/lourdes52007/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVPadreCicero.br@SD",
+    "logo": "https://i.imgur.com/Y7b29VG.png",
+    "category": "Religious",
+    "name": "TV Padre Cicero (720p)",
+    "streamUrl": "https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVPantanalMS.br@SD",
+    "logo": "https://i.imgur.com/0FOmktl.png",
+    "category": "Undefined",
+    "name": "TV Pantanal MS (360p) [Not 24/7]",
+    "streamUrl": "https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVParaense.br@HD",
+    "logo": "https://duckduckgo.com/i/e408ea02.png",
+    "category": "Entertainment;Family;General;News",
+    "name": "TV Paraense (720p)",
+    "streamUrl": "https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u"
+  },
+  {
+    "tvgId": "TVParanaTurismo.br@SD",
+    "logo": "https://i.imgur.com/I6pKoBd.png",
+    "category": "Travel",
+    "name": "TV Paraná Turismo (720p) [Not 24/7]",
+    "streamUrl": "http://200.189.113.201/hls/tve.m3u8"
+  },
+  {
+    "tvgId": "TVPassoFundo.br@SD",
+    "logo": "https://i.imgur.com/QFE6TiV.png",
+    "category": "General",
+    "name": "TV Passo Fundo (720p)",
+    "streamUrl": "https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVPlan.br@SD",
+    "logo": "https://i.imgur.com/U1cYYuy.png",
+    "category": "General",
+    "name": "TV Plan (720p)",
+    "streamUrl": "https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVRioPreto.br@SD",
+    "logo": "https://i.imgur.com/9EqSKLc.png",
+    "category": "General",
+    "name": "TV Rio Preto (720p)",
+    "streamUrl": "https://video02.logicahost.com.br/tvriopreto/tvriopreto/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSandegi.br@SD",
+    "logo": "https://i.imgur.com/vJ6ZQSG.png",
+    "category": "General",
+    "name": "TV Sandegi (360p)",
+    "streamUrl": "https://video01.kshost.com.br/antonio9510/antonio9510/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSaoRaimundo.br@SD",
+    "logo": "https://i.imgur.com/f34CQIG.png",
+    "category": "General",
+    "name": "TV São Raimundo (268p)",
+    "streamUrl": "https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSeries.br@SD",
+    "logo": "https://i.imgur.com/Ff5mj0o.png",
+    "category": "Series",
+    "name": "TV Series 1 As Panteras (480p)",
+    "streamUrl": "https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSimCachoeiro.br@SD",
+    "logo": "https://i.imgur.com/t5oUK3C.png",
+    "category": "News",
+    "name": "TV Sim Cachoeiro (720p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSimColatina.br@SD",
+    "logo": "https://i.imgur.com/t5oUK3C.png",
+    "category": "News",
+    "name": "TV Sim Colatina (720p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSimSaoMateus.br@SD",
+    "logo": "https://i.imgur.com/t5oUK3C.png",
+    "category": "News",
+    "name": "TV Sim São Mateus (720p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSolComunidade.br@SD",
+    "logo": "https://i.imgur.com/5cGnb4r.png",
+    "category": "Undefined",
+    "name": "TV Sol Comunidade (480p) [Not 24/7]",
+    "streamUrl": "http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSulBahia.br@SD",
+    "logo": "https://i.imgur.com/qM6nMWm.png",
+    "category": "Undefined",
+    "name": "TV Sul Bahia (320p)",
+    "streamUrl": "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVSuldeMinas.br@SD",
+    "logo": "https://i.imgur.com/hPh8cxK.png",
+    "category": "General",
+    "name": "TV Sul de Minas (720p)",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVTerceiroAnjo.br@SD",
+    "logo": "https://i.imgur.com/PExKWNv.png",
+    "category": "Religious",
+    "name": "TV Terceiro Anjo (360p)",
+    "streamUrl": "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVThathi.br@SD",
+    "logo": "https://i.imgur.com/w9yKTxE.png",
+    "category": "General",
+    "name": "TV Thathi (720p) [Not 24/7]",
+    "streamUrl": "https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVUFG.br@SD",
+    "logo": "https://i.imgur.com/Yp3dbJo.png",
+    "category": "Education",
+    "name": "TV UFG (720p) [Not 24/7]",
+    "streamUrl": "http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVUniversal.br@SD",
+    "logo": "https://i.imgur.com/TIsk5zN.png",
+    "category": "Religious",
+    "name": "TV Universal (480p)",
+    "streamUrl": "https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVValedoUruara.br@SD",
+    "logo": "https://i.imgur.com/WgXsfIa.png",
+    "category": "General",
+    "name": "TV Vale do Uruará (614p)",
+    "streamUrl": "https://stmv1.paineltv.net/valeradiowebtv/valeradiowebtv/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVVicosa.br@SD",
+    "logo": "https://i.imgur.com/TZF55f9.png",
+    "category": "Entertainment",
+    "name": "TV Viçosa (480p)",
+    "streamUrl": "http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVVilaReal.br@SD",
+    "logo": "https://i.imgur.com/Z1uWe7g.png",
+    "category": "Undefined",
+    "name": "TV Vila Real (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVZoom.br@SD",
+    "logo": "https://i.imgur.com/jCGrjf5.png",
+    "category": "Entertainment;News",
+    "name": "TV Zoom (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVBEJoinville.br@SD",
+    "logo": "https://i.imgur.com/zUpWcUN.png",
+    "category": "Culture;Education",
+    "name": "TVBE Joinville (720p)",
+    "streamUrl": "https://5c483b9d1019c.streamlock.net/8022/8022/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVCRio.br@SD",
+    "logo": "https://i.imgur.com/WDiikWv.png",
+    "category": "General",
+    "name": "TVC-Rio",
+    "streamUrl": "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVComunitaria.br@SD",
+    "logo": "https://i.imgur.com/uxefHY3.png",
+    "category": "General",
+    "name": "TVCOM DF (360p)",
+    "streamUrl": "https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR="
+  },
+  {
+    "tvgId": "TVCOMMaceio.br@SD",
+    "logo": "https://i.imgur.com/IE7IZzi.png",
+    "category": "General",
+    "name": "TVCOM Maceió (480p)",
+    "streamUrl": "https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVEBahia.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/512px-TVE_Bahia_logo.svg.png",
+    "category": "Undefined",
+    "name": "TVE RS (1080p) [Not 24/7]",
+    "streamUrl": "http://selpro1348.procergs.com.br:1935/tve/stve/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVERS.br@SD",
+    "logo": "https://i.imgur.com/MQ6lJpS.png",
+    "category": "Culture;Education",
+    "name": "TVE RS (1080p)",
+    "streamUrl": "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVideoNews.br@SD",
+    "logo": "https://i.imgur.com/vstHOYx.png",
+    "category": "News",
+    "name": "TVídeoNews (720p) [Not 24/7]",
+    "streamUrl": "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVitape.br@SD",
+    "logo": "https://i.imgur.com/XeqcwKe.png",
+    "category": "General",
+    "name": "TVitapé (720p)",
+    "streamUrl": "https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8"
+  },
+  {
+    "tvgId": "TVMaster.br@SD",
+    "logo": "https://i.imgur.com/fTgGvNJ.png",
+    "category": "General",
+    "name": "TVMaster (720p)",
+    "streamUrl": "https://virtues.es:1936/tvmaster/tvmaster/playlist.m3u8"
+  },
+  {
+    "tvgId": "TVMaticComedy.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Comedy",
+    "name": "TVMatic Comedy (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/comedy.m3u8"
+  },
+  {
+    "tvgId": "TVMaticCrafts.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Undefined",
+    "name": "TVMatic Crafts (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/crafts.m3u8"
+  },
+  {
+    "tvgId": "TVMaticFacebook.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Undefined",
+    "name": "TVMatic Facebook (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/facebook.m3u8"
+  },
+  {
+    "tvgId": "TVMaticFight.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Sports",
+    "name": "TVMatic Fight (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/fight.m3u8"
+  },
+  {
+    "tvgId": "TVMaticFunny.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Undefined",
+    "name": "TVMatic Funny (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/funny.m3u8"
+  },
+  {
+    "tvgId": "TVMaticTikTok.br@SD",
+    "logo": "https://i.imgur.com/l5PBcKN.png",
+    "category": "Undefined",
+    "name": "TVMatic TikTok (720p)",
+    "streamUrl": "http://cdn.tvmatic.net/tiktok.m3u8"
+  },
+  {
+    "tvgId": "TVNBN.br@SD",
+    "logo": "https://i.imgur.com/zoHBxn1.png",
+    "category": "General",
+    "name": "TVNBN (720p)",
+    "streamUrl": "https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8"
+  },
+  {
+    "tvgId": "UMATV.br@HD",
+    "logo": "https://i.imgur.com/m0RVb79.png",
+    "category": "Entertainment",
+    "name": "UMA TV (1080p)",
+    "streamUrl": "https://acesso.ecast.site:3011/live/umatvlive.m3u8"
+  },
+  {
+    "tvgId": "UnisulTV.br@SD",
+    "logo": "https://i.imgur.com/N0TvAFz.png",
+    "category": "Culture;Education",
+    "name": "UNISUL TV (720p)",
+    "streamUrl": "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token="
+  },
+  {
+    "tvgId": "UniTVPortoAlegre.br@SD",
+    "logo": "https://i.imgur.com/GmA5uuk.png",
+    "category": "Education",
+    "name": "UniTV Porto Alegre (480p)",
+    "streamUrl": "http://unitvaovivo.ufrgs.br:8080/live.ogg"
+  },
+  {
+    "tvgId": "VRTChannel.br@SD",
+    "logo": "https://i.imgur.com/crszh3d.png",
+    "category": "Entertainment",
+    "name": "VRT Channel (720p)",
+    "streamUrl": "https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8"
+  },
+  {
+    "tvgId": "VV8TV.br@SD",
+    "logo": "https://i.imgur.com/TxHWAeD.png",
+    "category": "General",
+    "name": "VV8 TV (720p)",
+    "streamUrl": "https://video01.kshost.com.br/seap8272/seap8272/playlist.m3u8"
+  }
+]

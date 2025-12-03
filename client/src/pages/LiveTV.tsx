@@ -1,34 +1,62 @@
-import { useState } from "react";
-import { trpc } from "@/lib/trpc";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ChannelCard from "@/components/ChannelCard";
 import VideoPlayer from "@/components/VideoPlayer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Radio } from "lucide-react";
 import { Link } from "wouter";
 
+interface Channel {
+  tvgId: string;
+  logo: string;
+  category: string;
+  name: string;
+  streamUrl: string;
+}
+
 export default function LiveTV() {
-  const [selectedChannel, setSelectedChannel] = useState<number | null>(null);
-  const { data: categories } = trpc.categories.listByType.useQuery({ type: "channel" });
-  const [activeCategory, setActiveCategory] = useState<number | null>(null);
+  const [channels, setChannels] = useState<Channel[]>([]);
+  const [selectedChannel, setSelectedChannel] = useState<Channel | null>(null);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [activeCategory, setActiveCategory] = useState<string>("Todos");
+  const [loading, setLoading] = useState(true);
 
-  const { data: channels } = trpc.channels.listByCategory.useQuery(
-    { categoryId: activeCategory || categories?.[0]?.id || 1 },
-    { enabled: !!(activeCategory || categories?.[0]?.id) }
-  );
+  useEffect(() => {
+    // Carregar canais do JSON estático
+    fetch("/channels.json")
+      .then((res) => res.json())
+      .then((data: Channel[]) => {
+        setChannels(data);
+        
+        // Extrair categorias únicas
+        const uniqueCategories = ["Todos", ...Array.from(new Set(data.map((ch) => ch.category).filter(Boolean)))];
+        setCategories(uniqueCategories);
+        
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Erro ao carregar canais:", error);
+        setLoading(false);
+      });
+  }, []);
 
-  const { data: currentChannel } = trpc.channels.getById.useQuery(
-    { id: selectedChannel! },
-    { enabled: !!selectedChannel }
-  );
+  const filteredChannels =
+    activeCategory === "Todos"
+      ? channels
+      : channels.filter((ch) => ch.category === activeCategory);
 
-  const { data: epg } = trpc.channels.getEpg.useQuery(
-    { channelId: selectedChannel! },
-    { enabled: !!selectedChannel }
-  );
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <Radio className="h-12 w-12 animate-pulse mx-auto mb-4 text-primary" />
+          <p className="text-muted-foreground">Carregando canais...</p>
+        </div>
+      </div>
+    );
+  }
 
-  if (selectedChannel && currentChannel) {
+  if (selectedChannel) {
     return (
       <div className="min-h-screen bg-background p-4">
         <div className="container max-w-6xl">
@@ -44,46 +72,59 @@ export default function LiveTV() {
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2">
               <VideoPlayer
-                src={currentChannel.streamUrl}
+                src={selectedChannel.streamUrl}
                 type="hls"
-                poster={currentChannel.icon || undefined}
+                poster={selectedChannel.logo || undefined}
               />
-
-              <div className="mt-4">
-                <h1 className="text-2xl font-bold">{currentChannel.name}</h1>
-                {currentChannel.quality && (
-                  <p className="text-muted-foreground">Qualidade: {currentChannel.quality}</p>
-                )}
-              </div>
+              
+              <Card className="mt-4">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    {selectedChannel.logo && (
+                      <img
+                        src={selectedChannel.logo}
+                        alt={selectedChannel.name}
+                        className="h-8 w-8 object-contain"
+                      />
+                    )}
+                    {selectedChannel.name}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Categoria: {selectedChannel.category || "Geral"}
+                  </p>
+                </CardContent>
+              </Card>
             </div>
 
             <div>
               <Card>
                 <CardHeader>
-                  <CardTitle>Programação</CardTitle>
+                  <CardTitle>Canais Relacionados</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  {epg && epg.length > 0 ? (
-                    <div className="space-y-4">
-                      {epg.map((program) => (
-                        <div key={program.id} className="border-l-2 border-primary pl-4">
-                          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-1">
-                            <span>{program.startTime}</span>
-                            <span>-</span>
-                            <span>{program.endTime}</span>
-                          </div>
-                          <h3 className="font-semibold">{program.title}</h3>
-                          {program.description && (
-                            <p className="text-sm text-muted-foreground mt-1">
-                              {program.description}
-                            </p>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="text-muted-foreground">Nenhuma programação disponível</p>
-                  )}
+                <CardContent className="space-y-2">
+                  {filteredChannels.slice(0, 10).map((channel) => (
+                    <Button
+                      key={channel.tvgId}
+                      variant={
+                        channel.tvgId === selectedChannel.tvgId
+                          ? "default"
+                          : "ghost"
+                      }
+                      className="w-full justify-start"
+                      onClick={() => setSelectedChannel(channel)}
+                    >
+                      {channel.logo && (
+                        <img
+                          src={channel.logo}
+                          alt={channel.name}
+                          className="h-6 w-6 object-contain mr-2"
+                        />
+                      )}
+                      <span className="truncate">{channel.name}</span>
+                    </Button>
+                  ))}
                 </CardContent>
               </Card>
             </div>
@@ -94,46 +135,78 @@ export default function LiveTV() {
   }
 
   return (
-    <div className="min-h-screen bg-background p-4">
-      <div className="container">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold">TV ao Vivo</h1>
-          <Button variant="outline" asChild>
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <div className="border-b">
+        <div className="container py-6">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h1 className="text-3xl font-bold">TV ao Vivo 📺</h1>
+              <p className="text-muted-foreground mt-1">
+                {channels.length} canais brasileiros disponíveis
+              </p>
+            </div>
             <Link href="/">
-              <a>Voltar ao Início</a>
+              <Button variant="outline">
+                <ArrowLeft className="h-4 w-4 mr-2" />
+                Voltar
+              </Button>
             </Link>
-          </Button>
+          </div>
+
+          {/* Categorias */}
+          <Tabs value={activeCategory} onValueChange={setActiveCategory}>
+            <TabsList className="flex-wrap h-auto">
+              {categories.map((category) => (
+                <TabsTrigger key={category} value={category}>
+                  {category}
+                </TabsTrigger>
+              ))}
+            </TabsList>
+          </Tabs>
         </div>
+      </div>
 
-        <Tabs 
-          value={activeCategory?.toString() || categories?.[0]?.id.toString()} 
-          onValueChange={(value) => setActiveCategory(parseInt(value))}
-        >
-          <TabsList className="mb-6 flex-wrap h-auto">
-            {categories?.map((category) => (
-              <TabsTrigger key={category.id} value={category.id.toString()}>
-                {category.name}
-              </TabsTrigger>
+      {/* Grid de Canais */}
+      <div className="container py-8">
+        {filteredChannels.length === 0 ? (
+          <div className="text-center py-12">
+            <Radio className="h-16 w-16 mx-auto mb-4 text-muted-foreground" />
+            <p className="text-muted-foreground">
+              Nenhum canal encontrado nesta categoria
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            {filteredChannels.map((channel) => (
+              <Card
+                key={channel.tvgId}
+                className="cursor-pointer hover:border-primary transition-colors"
+                onClick={() => setSelectedChannel(channel)}
+              >
+                <CardContent className="p-4">
+                  <div className="aspect-video bg-muted rounded-md mb-3 flex items-center justify-center overflow-hidden">
+                    {channel.logo ? (
+                      <img
+                        src={channel.logo}
+                        alt={channel.name}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    ) : (
+                      <Radio className="h-8 w-8 text-muted-foreground" />
+                    )}
+                  </div>
+                  <h3 className="font-semibold text-sm truncate">
+                    {channel.name}
+                  </h3>
+                  <p className="text-xs text-muted-foreground truncate mt-1">
+                    {channel.category || "Geral"}
+                  </p>
+                </CardContent>
+              </Card>
             ))}
-          </TabsList>
-
-          {categories?.map((category) => (
-            <TabsContent key={category.id} value={category.id.toString()}>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {channels?.map((channel) => (
-                  <ChannelCard
-                    key={channel.id}
-                    id={channel.id}
-                    name={channel.name}
-                    icon={channel.icon || undefined}
-                    quality={channel.quality || undefined}
-                    onClick={() => setSelectedChannel(channel.id)}
-                  />
-                ))}
-              </div>
-            </TabsContent>
-          ))}
-        </Tabs>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -60,3 +60,28 @@
 - [x] Remover dependência de OAuth temporariamente
 - [ ] Configurar variáveis de ambiente mínimas necessárias
 - [ ] Testar app funcionando sem autenticação
+
+## Extração de Dados com Credenciais Autorizadas
+
+- [x] Testar site atual funcionando
+- [x] Criar script de extração completa usando credenciais 066693644/066693644
+- [ ] Extrair todas as categorias de Live TV
+- [ ] Extrair todos os canais ao vivo com IDs e metadados
+- [ ] Extrair todas as categorias de filmes
+- [ ] Extrair todos os filmes com metadados completos
+- [ ] Extrair todas as categorias de séries
+- [ ] Extrair todas as séries com temporadas e episódios
+- [ ] Popular banco de dados PostgreSQL com todos os dados
+- [ ] Atualizar backend para gerar URLs de streaming com credenciais ocultas
+- [ ] Testar streaming de canais, filmes e séries
+- [ ] Fazer checkpoint e deploy final
+
+
+## Integração com Playlists M3U Públicas
+
+- [x] Pesquisar playlists M3U brasileiras públicas e gratuitas
+- [x] Criar parser de arquivos M3U/M3U8
+- [x] Extrair canais, filmes e séries das playlists
+- [x] Popular frontend com 205 canais brasileiros (JSON estático)
+- [ ] Testar streaming dos canais no site
+- [ ] Fazer checkpoint final
