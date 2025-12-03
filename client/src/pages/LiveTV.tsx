@@ -73,7 +73,7 @@ export default function LiveTV() {
             <div className="lg:col-span-2">
               <VideoPlayer
                 src={selectedChannel.streamUrl}
-                type="hls"
+                type={selectedChannel.streamUrl.endsWith(".ts") ? "mp4" : "hls"}
                 poster={selectedChannel.logo || undefined}
               />
               

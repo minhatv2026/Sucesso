@@ -5,6 +5,8 @@ import net from "net";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { appRouter } from "../routers";
+import axios from "axios";
+import { IPTV_STREAM_HOST } from "../iptv-service";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 
@@ -43,6 +45,32 @@ async function startServer() {
       createContext,
     })
   );
+
+  // Proxy reverso para streams IPTV
+  app.get("/api/stream/*", async (req, res) => {
+    const streamUrl = req.params[0];
+    const fullUrl = `${IPTV_STREAM_HOST}/${streamUrl}`;
+    
+    try {
+      const response = await axios.get(fullUrl, {
+        responseType: "stream",
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        },
+      });
+
+      // Definir headers para o cliente
+      res.setHeader("Content-Type", response.headers["content-type"] || "application/x-mpegURL");
+      res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+      res.setHeader("Pragma", "no-cache");
+      res.setHeader("Expires", "0");
+
+      response.data.pipe(res);
+    } catch (error) {
+      console.error(`Erro no proxy para ${fullUrl}:`, error);
+      res.status(500).send("Erro ao carregar o stream.");
+    }
+  });
   // development mode uses Vite, production mode uses static files
   if (process.env.NODE_ENV === "development") {
     await setupVite(app, server);

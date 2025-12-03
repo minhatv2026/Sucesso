@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Credenciais do IPTV Perfeito (ocultas no backend)
 const IPTV_API_BASE = "http://player.iptvperfeito.com/online";
-const IPTV_STREAM_HOST = "http://iptvperfeito.ddns.net:25461";
+export const IPTV_STREAM_HOST = "http://iptvperfeito.ddns.net:25461";
 const IPTV_USERNAME = "491548830";
 const IPTV_PASSWORD = "491548830";
 
@@ -299,9 +299,11 @@ class IPTVService {
    * Gerar URL de streaming com credenciais ocultas
    */
   generateStreamUrl(type: "live" | "movie" | "series", contentId: number | string): string {
-    return `${IPTV_STREAM_HOST}/${type}/${IPTV_USERNAME}/${IPTV_PASSWORD}/${contentId}.${
-      type === "live" ? "m3u8" : "mp4"
+    const streamPath = `${type}/${IPTV_USERNAME}/${IPTV_PASSWORD}/${contentId}.${
+      type === "live" ? "ts" : "mp4" // Usar .ts para live, pois o player espera isso
     }`;
+    // Retorna a URL do nosso proxy reverso
+    return `/api/stream/${streamPath}`;
   }
 }
 
