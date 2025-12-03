@@ -67,8 +67,8 @@ export default function LiveTV() {
     // Para o teste de proxy, vamos usar o stream original, mas o proxy deve buscar o stream de teste
     // Isso requer uma mudança no iptv-service.ts, mas vamos manter o foco no frontend primeiro.
 
-    // Vamos usar o stream original, mas se for o canal "A Fazenda - Sinal 1", vamos usar o stream de teste
-    const finalStreamUrl = selectedChannel.name.includes("A Fazenda - Sinal 1") ? TEST_STREAM_URL : streamToPlay;
+    // Forçar o uso do stream de teste para diagnosticar o problema
+    const finalStreamUrl = TEST_STREAM_URL; // Usar SEMPRE o stream de teste para diagnóstico
 
     return (
       <div className="min-h-screen bg-background p-4">
