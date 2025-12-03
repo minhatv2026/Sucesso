@@ -85,3 +85,11 @@
 - [x] Popular frontend com 205 canais brasileiros (JSON estático)
 - [ ] Testar streaming dos canais no site
 - [ ] Fazer checkpoint final
+
+## Extração de Canais do IPTV Perfeito
+
+- [x] Fazer login no webplayer do IPTV Perfeito
+- [x] Extrair lista completa de canais (Globo, SBT, Record, Cartoon, SporTV, etc.) - 1.003 canais!
+- [x] Gerar URLs de streaming com credenciais 066693644/066693644 embutidas
+- [x] Substituir JSON de canais
+- [ ] Fazer commit, push e aguardar deploy
