@@ -57,6 +57,19 @@ export default function LiveTV() {
   }
 
   if (selectedChannel) {
+    // Stream de teste público para diagnosticar o problema de CORS/Bloqueio
+    const TEST_STREAM_URL = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
+    const streamToPlay = selectedChannel.streamUrl; // Manter o original para o teste de proxy
+
+    // Para o teste de frontend, vamos forçar o stream de teste
+    // const streamToPlay = TEST_STREAM_URL; 
+
+    // Para o teste de proxy, vamos usar o stream original, mas o proxy deve buscar o stream de teste
+    // Isso requer uma mudança no iptv-service.ts, mas vamos manter o foco no frontend primeiro.
+
+    // Vamos usar o stream original, mas se for o canal "A Fazenda - Sinal 1", vamos usar o stream de teste
+    const finalStreamUrl = selectedChannel.name.includes("A Fazenda - Sinal 1") ? TEST_STREAM_URL : streamToPlay;
+
     return (
       <div className="min-h-screen bg-background p-4">
         <div className="container max-w-6xl">
@@ -72,8 +85,8 @@ export default function LiveTV() {
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2">
               <VideoPlayer
-                src={selectedChannel.streamUrl}
-                type={selectedChannel.streamUrl.endsWith(".ts") ? "mp4" : "hls"}
+                src={finalStreamUrl}
+                type={finalStreamUrl.endsWith(".ts") || finalStreamUrl.endsWith(".m3u8") ? "hls" : "mp4"}
                 poster={selectedChannel.logo || undefined}
               />
               
