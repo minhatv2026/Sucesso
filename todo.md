@@ -53,3 +53,10 @@
 - [ ] Testar integração completa
 - [ ] Fazer commit no GitHub
 - [ ] Deploy no Render.com
+
+## Correções Urgentes
+
+- [x] Corrigir erro de conexão frontend-backend
+- [x] Remover dependência de OAuth temporariamente
+- [ ] Configurar variáveis de ambiente mínimas necessárias
+- [ ] Testar app funcionando sem autenticação

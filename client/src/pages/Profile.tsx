@@ -1,4 +1,4 @@
-import { useAuth } from "@/_core/hooks/useAuth";
+// import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,10 +6,13 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { User, Clock, Heart, List, ArrowLeft } from "lucide-react";
 import { Link, Redirect } from "wouter";
-import { getLoginUrl } from "@/const";
+// import { getLoginUrl } from "@/const";
 
 export default function Profile() {
-  const { user, isAuthenticated, loading, logout } = useAuth();
+  const user: { name?: string; email?: string } | null = null; 
+  const isAuthenticated = false; 
+  const loading = false; 
+  const logout = () => {};
 
   const { data: watchlist } = trpc.watchlist.list.useQuery(undefined, {
     enabled: isAuthenticated
@@ -32,7 +35,7 @@ export default function Profile() {
   }
 
   if (!isAuthenticated) {
-    return <Redirect to={getLoginUrl()} />;
+    return <div>Login required (temporarily disabled)</div>;
   }
 
   const getInitials = (name?: string | null) => {

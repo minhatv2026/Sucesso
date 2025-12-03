@@ -5,13 +5,14 @@ import { Badge } from "@/components/ui/badge";
 import VideoPlayer from "@/components/VideoPlayer";
 import { ArrowLeft, Star, Clock, Calendar, Heart, Plus } from "lucide-react";
 import { Link } from "wouter";
-import { useAuth } from "@/_core/hooks/useAuth";
+// import { useAuth } from "@/_core/hooks/useAuth";
 import { toast } from "sonner";
 
 export default function MovieDetail() {
   const [, params] = useRoute("/movie/:id");
   const movieId = params?.id ? parseInt(params.id) : null;
-  const { isAuthenticated } = useAuth();
+  // Temporarily disabled authentication
+  const isAuthenticated = false;
 
   const { data: movie } = trpc.movies.getById.useQuery(
     { id: movieId! },

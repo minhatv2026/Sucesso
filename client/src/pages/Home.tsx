@@ -1,13 +1,16 @@
-import { useAuth } from "@/_core/hooks/useAuth";
+// import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
-import { getLoginUrl } from "@/const";
+// import { getLoginUrl } from "@/const";
 import { trpc } from "@/lib/trpc";
 import { Link } from "wouter";
 import ContentCard from "@/components/ContentCard";
 import { Tv, Film, TvMinimal, Search, User, LogOut } from "lucide-react";
 
 export default function Home() {
-  const { user, isAuthenticated, logout } = useAuth();
+  // Temporarily disabled authentication
+  const user = null;
+  const isAuthenticated = false;
+  const logout = () => {};
   const { data: categories } = trpc.categories.listByType.useQuery({ type: "movie" });
   const { data: movies } = trpc.movies.listByCategory.useQuery(
     { categoryId: categories?.[0]?.id || 7 },
@@ -65,8 +68,8 @@ export default function Home() {
                 </Button>
               </>
             ) : (
-              <Button asChild>
-                <a href={getLoginUrl()}>Entrar</a>
+              <Button disabled>
+                Login (Em breve)
               </Button>
             )}
           </div>

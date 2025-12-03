@@ -7,14 +7,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import VideoPlayer from "@/components/VideoPlayer";
 import { ArrowLeft, Star, Heart, Plus, Play } from "lucide-react";
 import { Link } from "wouter";
-import { useAuth } from "@/_core/hooks/useAuth";
+// import { useAuth } from "@/_core/hooks/useAuth";
 import { toast } from "sonner";
 
 export default function SeriesDetail() {
   const [, params] = useRoute("/series/:id");
   const seriesId = params?.id ? parseInt(params.id) : null;
   const [selectedEpisode, setSelectedEpisode] = useState<number | null>(null);
-  const { isAuthenticated } = useAuth();
+  const isAuthenticated = false;
 
   const { data: show } = trpc.series.getById.useQuery(
     { id: seriesId! },
