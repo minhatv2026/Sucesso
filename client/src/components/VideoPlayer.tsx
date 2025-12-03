@@ -52,7 +52,6 @@ export default function VideoPlayer({
             lowLatencyMode: true,
             backBufferLength: 90,
             xhrSetup: (xhr, url) => {
-              // Adicionar headers para contornar CORS
               xhr.withCredentials = false;
             },
           });
