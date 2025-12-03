@@ -46,12 +46,14 @@ export default function VideoPlayer({
             hlsRef.current.destroy();
           }
 
+          console.log("🔄 Iniciando HLS.js com URL:", src);
           const hls = new Hls({
-            debug: false,
+            debug: true,
             enableWorker: true,
             lowLatencyMode: true,
             backBufferLength: 90,
             xhrSetup: (xhr, url) => {
+              console.log("📡 XHR request para:", url);
               xhr.withCredentials = false;
             },
           });
@@ -69,7 +71,14 @@ export default function VideoPlayer({
           });
 
           hls.on(Hls.Events.ERROR, (event, data) => {
-            console.error("❌ Erro HLS:", data);
+            console.error("❌ Erro HLS:", event, data);
+            console.error("Detalhes do erro:", {
+              type: data.type,
+              details: data.details,
+              fatal: data.fatal,
+              error: data.error,
+              response: data.response,
+            });
             if (data.fatal) {
               switch (data.type) {
                 case Hls.ErrorTypes.NETWORK_ERROR:
